@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "forms": [
+    {
+      "entity": "kategorien",
+      "app_id": "6a156b6fb6cea9943d969860",
+      "path": "/rest/apps/6a156b6fb6cea9943d969860/records",
+      "allowed_fields": [
+        "kategorie_name",
+        "kategorie_beschreibung",
+        "kategorie_farbe"
+      ],
+      "pow": true,
+      "pow_difficulty": 50000,
+      "title": "Kategorien — Formular"
+    },
+    {
+      "entity": "notizen",
+      "app_id": "6a156b7c0d8d71e567ae183e",
+      "path": "/rest/apps/6a156b7c0d8d71e567ae183e/records",
+      "allowed_fields": [
+        "notiz_titel",
+        "notiz_inhalt",
+        "notiz_datum",
+        "notiz_prioritaet",
+        "notiz_status"
+      ],
+      "pow": true,
+      "pow_difficulty": 50000,
+      "title": "Notizen — Formular"
+    }
+  ]
+}

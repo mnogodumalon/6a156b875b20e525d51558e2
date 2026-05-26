@@ -1,0 +1,3 @@
+- Kategorien (kategorien): kategorie_name[string/text], kategorie_beschreibung[string/textarea], kategorie_farbe[lookup/select]
+- Notizen (notizen): notiz_titel[string/text], notiz_inhalt[string/textarea], notiz_kategorie[applookup/select], notiz_datum[date/date], notiz_prioritaet[lookup/radio], notiz_status[lookup/select]
+  → notiz_kategorie links to app_id 6a156b6fb6cea9943d969860
